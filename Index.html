@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./CSS/Index.css" rel="stylesheet"></link>
+    <link href="./CSS/Main.css" rel="stylesheet"></link>
+    <title>Benê</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./Images/pandeiro.jpg" alt="Logo-Marca-Benê">
+        </div>
+        <div>
+            <h4>Benê</h4>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h1>Benefício é quando você escolhe como usar!</h1>
+        </div>
+        <div>
+            <div>
+                <img src="./Images/pandeiro.jpg" alt="Imagem-Principal">
+            </div>
+            <div>
+                <form>
+                    <input
+                        id="inputNome"
+                        placeholder="Digite seu nome completo"
+                        type="text"
+                        pattern="^\D{2,}\s[\D\s]{2,}$"
+                        required
+                    />
+                    <input
+                        id="inputEmail"
+                        placeholder="Digite seu email"
+                        type="email"
+                        required
+                    />
+                    <input
+                        id="btnEnviar"
+                        type="submit"
+                        value="Enviar"
+                    />
+                    <input name="redirectTo" type="hidden" value="" />
+                    <input name="debugMode" type="hidden" value="true" />
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
